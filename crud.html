@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD en JS</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h2>CRUD en JS</h2>
+    <table id="myTable">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Acción</th>
+        </tr>
+    </table>
+    <br>
+    <input type="text" id="fname" placeholder="Nombre">
+    <input type="text" id="lname" placeholder="Apellido">
+    <button onclick="newRow()">Agregar</button>
+
+    <script>
+        function newRow() {
+            var table = document.getElementById("myTable");
+            var row = table.insertRow(-1);
+            var cell1 = row.insertCell(0);
+            var cell2 = row.insertCell(1);
+            var cell3 = row.insertCell(2);
+            cell1.innerHTML = document.getElementById("fname").value;
+            cell2.innerHTML = document.getElementById("lname").value;
+            cell3.innerHTML = '<button onclick="deleteRow(this)">Eliminar</button>';
+            document.getElementById("fname").value = "";
+            document.getElementById("lname").value = "";
+        }
+
+        function deleteRow(btn) {
+            var row = btn.parentNode.parentNode;
+            row.parentNode.removeChild(row);
+        }
+    </script>
+</body>
+</html>
