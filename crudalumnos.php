@@ -12,7 +12,7 @@
 
     <h1 class="text-center p-3">Registro de Alumnos</h1>
     <div class="container-fluid row">
-    <div class="container" id="container"><
+    <div class="container" id="container">
         <form class="col-4">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
