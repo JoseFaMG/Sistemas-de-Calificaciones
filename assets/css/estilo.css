@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e34100, #011f5d);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    font: 100;
+
+}
