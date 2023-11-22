@@ -60,7 +60,7 @@
         </div>
     </div>
 
-    <script src="/scripts/script.js"></script>
+    <script src="assets/scripts/script.js"></script>
 </body>
 
 </html>
