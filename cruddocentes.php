@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/estilo.css">
-    <title>Registro de Alumnos</title>
+    <title>Registro de Docentes</title>
     <link rel="shortcut icon" href="assets/Images/utc.png" />
 </head>
 <body>
-<h1 class="text-center p-3">Registro de Alumnos</h1>
+
+    <h1 class="text-center p-3">Registro de Docentes</h1>
     <div class="container-fluid row">
     <form class="col-4">
   <div class="mb-3">
