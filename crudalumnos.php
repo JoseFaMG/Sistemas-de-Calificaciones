@@ -13,7 +13,7 @@
     <h1 class="text-center p-3">Registro de Alumnos</h1>
       <div class="CONTAINER">
         <div class="BOX">
-          
+
         </div>
       </div>
 
