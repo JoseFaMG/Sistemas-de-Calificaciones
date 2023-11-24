@@ -89,7 +89,7 @@
                 'Número de Celular': numeroCelular
             };
 
-            // Hacer algo con el objeto 'estudiante'
+            // Hacer algo con el objeto 'estudiante
         }
     </script>
 </body>
