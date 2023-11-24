@@ -1,69 +1,108 @@
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-    .logo-container {
-        text-align: center;
-        margin-top: 1px;
-      
-    }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-    .logo-container img {
-        width: 250px;
-        height: auto;
-        margin: 0 auto;
-        margin-top: 1px;
-    }
-    body {
-        background: linear-gradient(to right, #e34100, #011f5d);
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-    }
+.logo-container {
+    text-align: center;
+    margin-top: 1px;
+}
 
-    h1 {
-        font-family: 'Montserrat', sans-serif;
-        color:#ffffff;
-        display: block;
-        font-size: 3em;
-        font-weight: bold;
-        margin-top: 1px;
-        margin-bottom: 1px; /* Ajusta según sea necesario */
-    }
-    .container .box {
-        margin-top: 350px; 
-        justify-content: center;
-        width: 500px;
-        height: 800px;
-        padding: 20px;
-        background: #fff; /* Cambia el color a blanco */
-        z-index: 10;
-        display: flex;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 20px;
-        border: 2px solid rgba(255, 255, 255, 0.7);
-        box-shadow: -15px 17px 17px rgba(255, 255, 255, 0.25);
-    }
+.logo-container img {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1px;
+}
 
-    .container .box label,
-    .container .box input,
-    .container .box button {
-        color: black; /* Haciendo que todas las letras dentro de .box sean blancas */
-    }
+body {
+    background: linear-gradient(to right, #e34100, #011f5d);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
-    .container .box input {
-        background: transparent;
-        border: 1px solid black;
-        border-radius: 5px;
-        margin-bottom: 10px;
-        
-    }
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px; /* Ajusta según sea necesario */
+}
 
-    .container .box input:focus {
-        outline: none;
-    }
+.container .box {
+    margin-top: 350px;
+    justify-content: center;
+    width: 500px;
+    padding: 20px;
+    background: #fff; /* Cambia el color a blanco */
+    z-index: 10;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    box-shadow: -15px 17px 17px rgba(255, 255, 255, 0.25);
+}
 
-    .container .box button {
-        margin-top: 10px;
-        background: transparent;
-    }
+.container .box label,
+.container .box input,
+.container .box button {
+    color: black; /* Haciendo que todas las letras dentro de .box sean blancas */
+}
+
+.container .box input {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container .box input:focus {
+    outline: none;
+}
+
+.container .box button {
+    margin-top: 10px;
+    background: transparent;
+}
+
+.container1 .box1 {
+    margin-top: 275px;
+    justify-content: center;
+    width: 500px;
+    padding: 20px;
+    background: #fff; /* Cambia el color a blanco */
+    z-index: 10;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    box-shadow: -15px 17px 17px rgba(255, 255, 255, 0.25);
+}
+
+.container1 .box1 label,
+.container1 .box1 input,
+.container1 .box1 button {
+    color: black; /* Haciendo que todas las letras dentro de .box sean blancas */
+}
+
+.container1 .box1 input {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container1 .box1 input:focus {
+    outline: none;
+}
+
+.container1 .box1 button {
+    margin-top: 10px;
+    background: transparent;
+}
