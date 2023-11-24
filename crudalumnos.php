@@ -22,7 +22,7 @@
                 <div class="box">
                     <form id="registroForm">
                         <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre estudiante:</label>
+                            <label for="nombre" class="form-label">Nombre Estudiante:</label>
                             <input type="text" class="form-control" id="nombre" required>
                         </div>
 
