@@ -1,33 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+    .logo-container {
+        text-align: center;
+        margin-top: 20px;
+        
+    }
 
-body{
-    
-    background: linear-gradient(to right, #e34100, #011f5d);
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-h1{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    display: block;
-    font-size: 3em;
-    font-weight: bold;
-}
-.CONTAINER .BOX {
-    height: 600px;
-    width: 500px;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    z-index: 10;
-    display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(25px);
-    box-shadow: -15px 17px 17px rgba(255, 255, 2555, 0.25);
+    .logo-container img {
+        width: 800px;
+        height: auto;
+        margin: 0 auto;
+        
+    }
+    body {
+        background: linear-gradient(to right, #e34100, #011f5d);
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
 
-}
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        color:#011f5d;
+        display: block;
+        font-size: 3em;
+        font-weight: bold;
+        
+        margin-bottom: 20px; /* Ajusta según sea necesario */
+    }
+    .container .box {
+        margin-top: 100px; 
+        justify-content: center;
+        width: 500px;
+        height: 800px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        z-index: 10;
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        border: 2px solid rgba(255, 255, 255, 0.7);
+        box-shadow: -15px 17px 17px rgba(255, 255, 255, 0.25);
+    }
+
+    .container .box label,
+    .container .box input,
+    .container .box button {
+        color: white; /* Haciendo que todas las letras dentro de .box sean blancas */
+    }
+
+    .container .box input {
+        background: transparent;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        
+    }
+
+    .container .box input:focus {
+        outline: none;
+    }
+
+    .container .box button {
+        margin-top: 10px;
+        background: transparent;
+    }
