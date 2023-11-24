@@ -16,17 +16,16 @@ h1{
    
     font-weight: bold;
 }
-.CONTAINER .BOX{
-    height: 86vh;
-    width: 75%;
-    padding: 0,20px;
-    background: rgba(255, 255, 2555, 0.1);
+.CONTAINER .BOX {
+    height: 100vh;
+    width: 100%;   
+    padding: 20px; 
+    background: rgba(255, 255, 255, 0.1);
     z-index: 10;
     display: flex;
     position: relative;
     border-radius: 20px;
-    border: 2px solid rgba(255, 255, 2555, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(25px);
-    box-shadow: -15px 17px 17px rgba(255, 255, 2555, 0.25);
-
+    box-shadow: -15px 17px 17px rgba(255, 255, 255, 0.25);
 }
