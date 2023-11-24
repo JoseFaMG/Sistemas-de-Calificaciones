@@ -15,41 +15,9 @@
     <h1 class="text-center p-3">Registro de Alumnos</h1>
     <div class="CONTAINER">
         <div class="BOX">
-      
-
-                <form id="registroForm">
-                    <li>
-                        <label for="nombre">Nombre estudiante :</label>
-                        <input type="text" id="nombre" required>
-                    </li>
-
-                    <li>
-                        <label for="apellidoPaterno">Apellido Paterno:</label>
-                        <input type="text" id="apellidoPaterno" required>
-                    </li>
-
-                    <li>
-                        <label for="apellidoMaterno">Apellido Materno:</label>
-                        <input type="text" id="apellidoMaterno" required>
-                    </li>
-
-                    <li>
-                        <label for="matricula">Matrícula:</label>
-                        <input type="text" id="matricula" required>
-                    </li>
-
-                    <li>
-                        <label for="cuatrimestre">Cuatrimestre:</label>
-                        <input type="text" id="cuatrimestre" required>
-                    </li>
-
-                    <li>
-                        <label for="edad">Edad:</label>
-                        <input type="text" id="edad" required>
-                    </li>
-                </ul>
-    </div>
-</div>
+          
+        </div>
+      </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script>
