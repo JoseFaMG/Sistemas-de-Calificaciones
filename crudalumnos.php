@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/estilo.css">
     <link rel="stylesheet" href="ruta/a/otro-estilo.css">
    
-    <title>Registro de Docentes</title>
+    <title>Registro de Alumnos</title>
     <link rel="shortcut icon" href="assets/Images/utc.png" />
 </head>
 <body>
@@ -15,9 +15,60 @@
     <h1 class="text-center p-3">Registro de Alumnos</h1>
     <div class="CONTAINER">
         <div class="BOX">
-        <a href="ruta/al/tu-archivo.pdf" download="nombre-del-archivo.pdf">
-                <button>Descargar PDF</button>
+      
 
+                <form id="registroForm">
+                    <li>
+                        <label for="nombre">Nombre estudiante :</label>
+                        <input type="text" id="nombre" required>
+                    </li>
+
+                    <li>
+                        <label for="apellidoPaterno">Apellido Paterno:</label>
+                        <input type="text" id="apellidoPaterno" required>
+                    </li>
+
+                    <li>
+                        <label for="apellidoMaterno">Apellido Materno:</label>
+                        <input type="text" id="apellidoMaterno" required>
+                    </li>
+
+                    <li>
+                        <label for="matricula">Matrícula:</label>
+                        <input type="text" id="matricula" required>
+                    </li>
+
+                    <li>
+                        <label for="cuatrimestre">Cuatrimestre:</label>
+                        <input type="text" id="cuatrimestre" required>
+                    </li>
+
+                    <li>
+                        <label for="edad">Edad:</label>
+                        <input type="text" id="edad" required>
+                    </li>
+                </ul>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+    function registrarEstudiante() {
+        var nombre = document.getElementById("nombre").value;
+        var apellidoPaterno = document.getElementById("apellidoPaterno").value;
+        var apellidoMaterno = document.getElementById("apellidoMaterno").value;
+        var matricula = document.getElementById("matricula").value;
+        var cuatrimestre = document.getElementById("cuatrimestre").value;
+        var edad = document.getElementById("edad").value;
+
+        var estudiante = {
+            'Nombre': nombre,
+            'Apellido Paterno': apellidoPaterno,
+            'Apellido Materno': apellidoMaterno,
+            'Matrícula': matricula,
+            'Cuatrimestre': cuatrimestre,
+            'Edad': edad
+        };
         </div>
     </div>
 
