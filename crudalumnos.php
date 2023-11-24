@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/estilo.css">
     <title>Registro de Alumnos</title>
-
+    
     <link rel="shortcut icon" href="assets/Images/utc.png" />
 </head>
-
 <body>
-
     <div class="container">
-        <h1 class="text-center p-3" style="text-align: center;">Registro de Alumnos</h1>
-        <div class="logo-container">
-            <img src="assets/Images/utc.png" alt="Logo de la Universidad">
-        </div>
-        <div class="box">
-            <form id="registroForm">
-                <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre estudiante:</label>
-                    <input type="text" class="form-control" id="nombre" required>
+        <h1 class="text-center p-3">Registro de Alumnos</h1>
+        
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="logo-container text-center">
+                    <img src="assets/Images/utc.png" alt="Logo de la Universidad" class="img-fluid">
                 </div>
+                
+                <div class="box">
+                    <form id="registroForm">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre estudiante:</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
 
                 <div class="mb-3">
                     <label for="apellidoPaterno" class="form-label">Apellido Paterno:</label>
@@ -92,5 +93,4 @@
         }
     </script>
 </body>
-
 </html>

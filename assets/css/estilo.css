@@ -1,15 +1,15 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
     .logo-container {
         text-align: center;
-        margin-top: 20px;
-        
+        margin-top: 1px;
+      
     }
 
     .logo-container img {
-        width: 800px;
+        width: 250px;
         height: auto;
         margin: 0 auto;
-        
+        margin-top: 1px;
     }
     body {
         background: linear-gradient(to right, #e34100, #011f5d);
@@ -24,16 +24,16 @@
         display: block;
         font-size: 3em;
         font-weight: bold;
-        
-        margin-bottom: 20px; /* Ajusta según sea necesario */
+        margin-top: 1px;
+        margin-bottom: 1px; /* Ajusta según sea necesario */
     }
     .container .box {
-        margin-top: 100px; 
+        margin-top: 350px; 
         justify-content: center;
         width: 500px;
         height: 800px;
         padding: 20px;
-        background: rgba(255, 255, 255, 0.1);
+        background: #fff; /* Cambia el color a blanco */
         z-index: 10;
         display: flex;
         position: absolute;
@@ -48,12 +48,12 @@
     .container .box label,
     .container .box input,
     .container .box button {
-        color: white; /* Haciendo que todas las letras dentro de .box sean blancas */
+        color: black; /* Haciendo que todas las letras dentro de .box sean blancas */
     }
 
     .container .box input {
         background: transparent;
-        border: 1px solid white;
+        border: 1px solid black;
         border-radius: 5px;
         margin-bottom: 10px;
         
