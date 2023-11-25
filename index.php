@@ -14,7 +14,8 @@
 
     <div class="container" id="container">
         <div class="form-container sign-up">
-            <form>
+            <!-- Enlace para registrar docente -->
+            <form action="cruddocentes.php" method="post">
                 <h1>Crea tu cuenta</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -22,11 +23,9 @@
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
-                <span>o use su correo electrónico para registrarse</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button>Registrate</button>
+                <button type="submit">Registrar Docentes</button>
+                <!-- Nuevo botón para registrar estudiantes -->
+                <button type="button" onclick="location.href='crudalumnos.php';">Registrar Estudiantes</button>
             </form>
         </div>
         <div class="form-container sign-in">
