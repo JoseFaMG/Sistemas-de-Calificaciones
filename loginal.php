@@ -16,8 +16,8 @@
       <div class="front">
         <img src="assets/Images/frontImg.jpg" alt="">
         <div class="text">
-          <span class="text-1">Every new friend is a <br> new adventure</span>
-          <span class="text-2">Let's get connected</span>
+          <span class="text-1">Bienvenido Docente <br> al Nuevo</span>
+          <span class="text-2">Sistema de Calificaciones UTC</span>
         </div>
       </div>
       <div class="back">
@@ -31,7 +31,7 @@
     <div class="forms">
         <div class="form-content">
           <div class="login-form">
-            <div class="title">Login</div>
+            <div class="title">UTC Docentes</div>
           <form action="#">
             <div class="input-boxes">
               <div class="input-box">
@@ -44,7 +44,7 @@
               </div>
               <div class="text"><a href="#">Forgot password?</a></div>
               <div class="button input-box">
-                <input type="submit" value="Sumbit">
+                <input type="submit" value="Iniciar secion">
               </div>
              
             </div>
