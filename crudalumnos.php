@@ -20,7 +20,7 @@
                 </div>
                 
                 <div class="box">
-                    <form id="registroForm" method="post" action="tu_archivo_php.php">
+                    <form id="registroForm" method="post">
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre Estudiante:</label>
                             <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -61,6 +61,7 @@
                             <input type="tel" class="form-control" id="numeroCelular" name="numeroCelular" required>
                         </div>
 
+                      
                         <div class="mb-3">
                             <label for="contrasena" class="form-label">Contraseña:</label>
                             <input type="password" class="form-control" id="contrasena" name="contrasena" required>
@@ -81,12 +82,26 @@
         });
 
         function registrarEstudiante() {
-            // Tu código actual para recoger datos del formulario
+            // Obtener referencia al formulario
+            var formulario = document.getElementById("registroForm");
 
-            // Mostrar mensaje de éxito (o error)
-            alert("Estudiante registrado con éxito");  // Puedes reemplazar esto con un mensaje más sofisticado si lo deseas
+            // Crear un objeto FormData para recoger los datos del formulario
+            var datosFormulario = new FormData(formulario);
+
+            // Realizar la solicitud AJAX para enviar los datos al archivo PHP
+            fetch("conexion.php", {
+                method: "POST",
+                body: datosFormulario
+            })
+            .then(response => response.text())
+            .then(data => {
+                // Mostrar mensaje de éxito o error según la respuesta del servidor
+                alert(data);
+            })
+            .catch(error => {
+                console.error("Error al enviar la solicitud:", error);
+            });
         }
     </script>
 </body>
 </html>
-
