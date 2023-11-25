@@ -19,6 +19,7 @@ body{
   max-width: 850px;
   width: 100%;
   background: #fff;
+	border-radius:25px;
   padding: 40px 30px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   perspective: 2700px;
@@ -55,8 +56,9 @@ body{
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #7d2ae8;
-  opacity: 0.5;
+	border-radius: 25px;
+  background: linear-gradient( #e34100, 25%, #2ba2ca);
+  opacity: .4;
   z-index: 12;
 }
 .container .cover::after{
@@ -68,6 +70,7 @@ body{
   position: absolute;
   height: 100%;
   width: 100%;
+	border-radius: 25px;
   object-fit: cover;
   z-index: 10;
 }
