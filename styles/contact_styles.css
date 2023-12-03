@@ -140,10 +140,8 @@ h2::selection,
 h3::selection, 
 h4::selection, 
 h5::selection, 
-h6::selection
-{
-	
-}
+h6::selection,
+
 ::-webkit-input-placeholder
 {
 	font-size: 14px !important;
@@ -688,10 +686,7 @@ section
 	padding-top: 117px;
 	padding-bottom: 117px;
 }
-.section_title
-{
 
-}
 .section_title h1
 {
 	display: block;
