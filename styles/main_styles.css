@@ -152,10 +152,8 @@ h2::selection,
 h3::selection, 
 h4::selection, 
 h5::selection, 
-h6::selection
-{
-	
-}
+h6::selection,
+
 ::-webkit-input-placeholder
 {
 	font-size: 14px !important;
@@ -850,10 +848,7 @@ section
 	padding-top: 117px;
 	padding-bottom: 117px;
 }
-.section_title
-{
 
-}
 .section_title h1
 {
 	display: block;
@@ -907,10 +902,7 @@ section
 9. Popular
 *********************************/
 
-.popular
-{
 
-}
 .course_boxes
 {
 	margin-top: 68px;
@@ -1341,10 +1333,7 @@ input:last-of-type
 	margin-top: 21px;
 	margin-bottom: 13px;
 }
-.event_image
-{
 
-}
 .event_image img
 {
 	width: 100%;
