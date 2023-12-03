@@ -398,3 +398,8 @@
 {
 	
 }
+.logo img {
+    width: 100px;
+	height: auto; /* Mantener la proporción original */
+    height: auto ; /* Esto mantiene la proporción original */
+}
