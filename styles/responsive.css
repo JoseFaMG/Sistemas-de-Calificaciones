@@ -302,37 +302,37 @@
 	{
 		padding-left: 15px;
 	}
-	.logo img
-	{
-		width: 30px;
-	}
-	.logo span
-	{
-		font-size: 16px;
-	}
+	
+	
 	.hamburger_container
 	{
 		right: 5px;
+		gap: 10px;
 	}
 	.menu
 	{
 		top: 70px;
+		gap: 10px;
 	}
 	.menu_item
 	{
 		margin-bottom: 0px;
+		gap: 10px;
 	}
 	.menu_item a
 	{
 		font-size: 24px;
+		gap: 10px;
 	}
 	.menu_copyright
 	{
 		display: none;
+		gap: 10px;
 	}
 	.menu_social_container
 	{
 		margin-top: 50px;
+		
 	}
 	.menu_close_container
 	{
@@ -501,4 +501,9 @@
 @media only screen and (max-width: 400px)
 {
 	
+}
+.logo img {
+    width: 100px;
+	
+    height: auto ; /* Esto mantiene la proporción original */
 }
