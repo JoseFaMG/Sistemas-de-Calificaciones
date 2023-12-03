@@ -312,11 +312,11 @@
 	}
 	.logo span
 	{
-		font-size: 16px;
+		font-size: 20px;
 	}
 	.hamburger_container
 	{
-		right: 5px;
+		right: px;
 	}
 	.menu
 	{
@@ -356,7 +356,7 @@
 	}
 	.home_content h1
 	{
-		font-size: 30px;
+		font-size: 40px;
 	}
 	.card-title
 	{
@@ -510,4 +510,9 @@
 @media only screen and (max-width: 400px)
 {
 	
+}
+.logo img {
+    width: 100px;
+	
+    height: auto ; /* Esto mantiene la proporción original */
 }

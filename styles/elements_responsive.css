@@ -418,3 +418,8 @@
 {
 	
 }
+.logo img {
+    width: 100px;
+	
+    height: auto ; /* Esto mantiene la proporción original */
+}
