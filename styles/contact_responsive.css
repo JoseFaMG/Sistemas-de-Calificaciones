@@ -365,7 +365,8 @@
     height: 100vh; /* Ajusta la altura según sea necesario */
 }
 body {
-    background-color: rgba(32, 107, 236, 0.732); /* Puedes ajustar el color según tus preferencias */
+    background: rgb(227,65,0);
+	background: linear-gradient(90deg, rgba(227,65,0,1) 0%, rgba(1,31,93,1) 100%);
     margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
