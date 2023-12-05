@@ -522,13 +522,39 @@
     height: auto ; /* Esto mantiene la proporción original */
 }
 
-.card-img-top{
-    width: 100%; /* Establecer el ancho al 100% para que se ajuste al contenedor */
-    height: auto; 
-}
 .card-img-top1{
-	width: 110%; 
-    height: auto; 
-	
-	margin-bottom: 20px;
+    width: 350px;
+    height: 300px;
+}
+.card-img-top2{
+	width: 350px;
+    height: 300px;
+}
+.card-img-top3{
+    width: 350px;
+    height: 300px;
+}
+.card-img-top4{
+	width: 350px;
+    height: 300px;
+}
+.card-img-top5{
+	width: 350px;
+    height: 300px;
+}
+.card-img-top6{
+    width: 350px;
+    height: 300px;
+}
+.card-img-top7{
+    width: 350px;
+    height: 300px;
+}
+.card-img-top8{
+    width: 350px;
+    height: 300px;
+}
+.card-img-top9{
+    width: 350px;
+    height: 300px;
 }
