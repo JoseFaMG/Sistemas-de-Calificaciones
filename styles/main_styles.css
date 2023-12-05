@@ -934,12 +934,12 @@ section
 {
 	font-size: 22px;
 	font-weight: 500;
-	color: #1a1a1a;
+	color: #011f5d;
 	line-height: 1.2;
 }
 .card-title a:hover
 {
-	color: #a5a5a5;
+	color: #e34100;
 }
 .card-text
 {
