@@ -42,6 +42,7 @@
 
 *
 {
+	border-radius: 10px;
 	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
@@ -53,7 +54,8 @@ body
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #FFFFFF;
+	background: rgb(227,65,0);
+	background: linear-gradient(90deg, rgba(227,65,0,1) 0%, rgba(1,31,93,1) 100%);
 	color: #a5a5a5;
 }
 div
