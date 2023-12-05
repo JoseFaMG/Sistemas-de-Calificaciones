@@ -65,7 +65,8 @@ body
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #FFFFFF;
+	background: rgb(227,65,0);
+	background: linear-gradient(90deg, rgba(227,65,0,1) 0%, rgba(1,31,93,1) 100%);
 	color: #a5a5a5;
 }
 div
@@ -392,7 +393,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #011f5d;
 }
 .header_side img
 {
@@ -692,7 +693,7 @@ section
 }
 .hero_slide_content h1 span
 {
-	background: #ffb606;
+	background: #e34100;
 	padding-left: 13px;
 	padding-right: 13px;
 	margin-left: -12px;
@@ -852,7 +853,7 @@ section
 .section_title h1
 {
 	display: block;
-	color: #1a1a1a;
+	color: #ffffff;
 	font-weight: 500;
 	padding-top: 24px;
 }
@@ -1142,14 +1143,14 @@ input:last-of-type
 	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 	font-weight: 500;
-	color: #1a1a1a;
+	color: #ffffff;
 	margin-bottom: 13px;
 }
 .service_item p
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #a5a5a5;
+	color: #ffffff;
 	max-width: 100%;
 	margin-bottom: 0px;
 }
