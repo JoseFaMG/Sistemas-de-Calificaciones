@@ -374,3 +374,6 @@ body {
 }
 
 /* Resto de tus estilos... */
+.services_row {
+	margin-bottom: 20px; /* Ajusta el valor según la separación que desees entre las secciones y el pie de página */
+}
