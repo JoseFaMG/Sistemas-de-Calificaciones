@@ -42,6 +42,7 @@
 
 *
 {
+	border-radius: 10px;
 	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
@@ -53,7 +54,8 @@ body
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #FFFFFF;
+	background: rgb(227,65,0);
+	background: linear-gradient(90deg, rgba(227,65,0,1) 0%, rgba(1,31,93,1) 100%);
 	color: #a5a5a5;
 }
 div
@@ -75,7 +77,7 @@ p
 	font-size: 14px;
 	line-height: 2.29;
 	font-weight: 400;
-	color: #a5a5a5;
+	color: #000000;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -362,7 +364,7 @@ section
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #3a3a3a;
+	color: #011f5d;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -371,7 +373,7 @@ section
 }
 .main_nav_item a:hover
 {
-	color: #ffb606;
+	color: #e34100;
 }
 
 /*********************************
@@ -382,7 +384,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #011f5d;
 }
 .header_side img
 {
@@ -695,7 +697,7 @@ section
 .section_title h1
 {
 	display: block;
-	color: #1a1a1a;
+	color: #ffffff;
 	font-weight: 500;
 	padding-top: 24px;
 }
@@ -713,7 +715,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background: #ffffff;
 }
 
 /*********************************
