@@ -55,7 +55,8 @@ body
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #FFFFFF;
+	background: rgb(227,65,0);
+	background: linear-gradient(90deg, rgba(227,65,0,1) 0%, rgba(0,51,255,1) 100%);
 	color: #a5a5a5;
 }
 div
@@ -698,7 +699,7 @@ section
 .section_title h1
 {
 	display: block;
-	color: #1a1a1a;
+	color: #ffffff;
 	font-weight: 500;
 	padding-top: 24px;
 }
@@ -716,7 +717,7 @@ section
 	width: 55px;
 	height: 4px;
 	content: '';
-	background: #ffb606;
+	background: #ffffff;
 }
 
 /*********************************
