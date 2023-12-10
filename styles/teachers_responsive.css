@@ -366,3 +366,48 @@
 {
 	
 }
+.logo img {
+    width: 100px;
+	
+    height: auto ; /* Esto mantiene la proporción original */
+}
+body {
+    background: rgb(227,65,0);
+	background: linear-gradient(90deg, rgba(227,65,0,1) 0%, rgba(1,31,93,1) 100%);
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #e2d1d1;
+}
+
+  #parrafo {
+	color: #000000; /* Color negro más intenso */
+	background-color: #fff; /* Color de fondo blanco */
+	padding: 30px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+
+  #parrafo p {
+	margin-bottom: 15px;
+	line-height: 1.5;
+  }
+
+  
+
+  .contenedor {
+	max-width: 600px;
+	margin: 0 auto;
+  }
+
+  img {
+	display: block;
+	margin: 0 auto; /* Centra la imagen horizontalmente */
+	max-width: 80%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+	height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+  }
+
+  #parrafo a:hover {
+	text-decoration: underline;
+  }
