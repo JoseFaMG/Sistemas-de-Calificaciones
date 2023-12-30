@@ -2,7 +2,7 @@
 // DB credentials.
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_PASS', '2017452071');
 define('DB_NAME', 'resultados_estudiante');
 // Establish database connection.
 try {

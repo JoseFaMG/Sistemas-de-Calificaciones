@@ -44,19 +44,16 @@ include('includes/config.php');
       </div>
       <div class="col-lg-6 text-center text-lg-right">
         <div class="d-inline-flex align-items-center">
-          <a class="text-white px-2" href="">
+          <a class="text-white px-2" href="https://www.facebook.com/UTresCulturas/">
             <i class="fab fa-facebook-f"></i>
           </a>
-          <a class="text-white px-2" href="">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a class="text-white px-2" href="">
+          <a class="text-white px-2" href="https://www.linkedin.com/company/universidad-tres-culturas-utc/">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a class="text-white px-2" href="">
+          <a class="text-white px-2" href="https://www.instagram.com/utresculturas/">
             <i class="fab fa-instagram"></i>
           </a>
-          <a class="text-white pl-2" href="">
+          <a class="text-white pl-2" href="https://www.youtube.com/channel/UCpxWDIXXvS3iwC9xsqWdgDg">
             <i class="fab fa-youtube"></i>
           </a>
         </div>
@@ -77,9 +74,9 @@ include('includes/config.php');
       </button>
       <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
         <div class="navbar-nav mx-auto py-0">
-          <a href="index.html" class="nav-item nav-link active">Inicio</a>
+          <a href="/index.html" class="nav-item nav-link active">Inicio</a>
           <a href="#" class="nav-item nav-link">Nosotros</a>
-          <a href="#" class="nav-item nav-link">Cursos</a>
+          <a href="/courses.html" class="nav-item nav-link">Cursos</a>
           <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Páginas</a>
             <div class="dropdown-menu m-0">
