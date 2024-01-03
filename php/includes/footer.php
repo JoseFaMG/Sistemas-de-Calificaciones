@@ -77,7 +77,7 @@
     <body>
 
         <div class="footer">
-            <p> <a style="color:white; font-size:large;" href="https://www.configuroweb.com/46-aplicaciones-gratuitas-en-php-python-y-javascript/#Aplicaciones-gratuitas-en-PHP,-Python-y-Javascript">Para más desarrollos ConfiguroWeb</a></p>
+            <p> <a style="color:white; font-size:large;">Universidad Tres Culturas</a></p>
         </div>
 
     </body>

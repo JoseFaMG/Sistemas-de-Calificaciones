@@ -34,7 +34,7 @@ include('includes/config.php');
                         <!-- /.row -->
                         <h1><span class="blue">&lt;</span>Resultados<span class="blue">&gt;</span> <span class="yellow">Estudiante</pan>
                         </h1>
-                        <h2><a href="https://www.configuroweb.com/46-aplicaciones-gratuitas-en-php-python-y-javascript/#Aplicaciones-gratuitas-en-PHP,-Python-y-Javascript" target="_blank">Para más desarrollos ConfiguroWeb</a></h2>
+                        <h2><a>Universidad Tres Culturas</a></h2>
 
                         <!-- /.row -->
                     </div>

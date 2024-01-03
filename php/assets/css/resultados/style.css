@@ -5,8 +5,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.42em;
-  color:#A7A1AE;
-  background-color:#1F2739;
+  background: rgb(227,65,0);
+	background: linear-gradient(90deg, rgba(227,65,0,1) 0%, rgba(0,51,255,1) 100%);
 }
 
 h1 {
@@ -41,15 +41,15 @@ h2 a {
 	  font-weight: bold;
 	  font-size: 1em;
   text-align: left;
-  color: #185875;
+  color: #f7f9fc;;
 }
 
 .container td {
 	  font-weight: normal;
 	  font-size: 1em;
-  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
-	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
-	        box-shadow: 0 2px 2px -2px #0E1119;
+  -webkit-box-shadow: 0 2px 2px -2px #f7f9fc;
+	   -moz-box-shadow: 0 2px 2px -2px #f7f9fc;
+	        box-shadow: 0 2px 2px -2px #f7f9fc;
 }
 
 .container {
@@ -69,33 +69,34 @@ h2 a {
 
 /* Background-color of the odd rows */
 .container tr:nth-child(odd) {
-	  background-color: #323C50;
+	  background-color: #f7f9fc;
 }
 
 /* Background-color of the even rows */
 .container tr:nth-child(even) {
-	  background-color: #2C3446;
+	  background-color: #f7f9fc;
 }
 
 .container th {
-	  background-color: #1F2739;
+	  background-color: #f7f9fc;
 }
 
 .container td:first-child { color: #FB667A; }
 
 .container tr:hover {
-   background-color: #464A52;
--webkit-box-shadow: 0 6px 6px -6px #0E1119;
-	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
-	        box-shadow: 0 6px 6px -6px #0E1119;
+   background-color: #fbfcff;
+-webkit-box-shadow: 0 6px 6px -6px #f7f9fc;
+	   -moz-box-shadow: 0 6px 6px -6px #f7f9fc;
+	        box-shadow: 0 6px 6px -6px #f7f9fc;
+	        box-shadow: 0 6px 6px -6px #f7f9fc;
 }
 
 .container td:hover {
   background-color: #FFF842;
-  color: #403E10;
+  color: #f7f9fc;
   font-weight: bold;
   
-  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  box-shadow: #f7f9fc -1px 1px, #f7f9fc -2px 2px, #f7f9fc -3px 3px, #f7f9fc -4px 4px, #f7f9fc -5px 5px, #f7f9fc -6px 6px;
   transform: translate3d(6px, -6px, 0);
   
   transition-delay: 0s;

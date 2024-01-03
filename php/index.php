@@ -9,7 +9,7 @@ include('includes/config.php');
 
 <head>
   <meta charset="utf-8">
-  <title>Sistema de Calificaciones ConfiguroWeb</title>
+  <title>Calificaciones | UTC</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="Free HTML Templates" name="keywords">
   <meta content="Free HTML Templates" name="description">
@@ -29,6 +29,7 @@ include('includes/config.php');
 
   <!-- Customized Bootstrap Stylesheet -->
   <link href="./assets/css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/assets/Images/utc.png">
 </head>
 
 <body>
@@ -133,9 +134,9 @@ include('includes/config.php');
         <div class="col-lg-7">
           <div class="section-title position-relative mb-4">
             <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Nosotros</h6>
-            <h1 class="display-4">Primera opción para la educación en línea en cualquier lugar</h1>
+            <h1 class="display-4">Historia sobre Nosotros</h1>
           </div>
-          <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+          <p>El día 18 de marzo de 1999 nace la Universidad de las Tres Culturas (UTC), con el claro objetivo de formar una nueva generación de profesionistas emprendedores y multidisciplinarios que puedan garantizar el éxito de las organizaciones y empresas en que participen; a través de una formación académica singular, con diversos programas enfocados en los intereses, necesidades y problemáticas de la sociedad actual.</p>
           <div class="row pt-3 mx-0">
             <div class="col-3 px-0">
               <div class="bg-success text-center p-4">
@@ -176,16 +177,16 @@ include('includes/config.php');
         <div class="col-lg-7 my-5 pt-5 pb-lg-5">
           <div class="section-title position-relative mb-4">
             <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Porqué escogernos?</h6>
-            <h1 class="display-4">Por qué deberías comenzar a aprender con nosotros?</h1>
+            <h1 class="display-4">FILOSOFÍA INSTITUCIONAL</h1>
           </div>
-          <p class="mb-4 pb-2">Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet.</p>
+          <p class="mb-4 pb-2">La Universidad Tres Culturas (UTC) se apega a la credibilidad y la confianza que tiene en su personal administrativo y docente, a ellos se les confiere la ardua tarea de hacer cumplir nuestra misión y visión, misma credibilidad y confianza que se le otorga al actor más importante de nuestra institución que es el estudiante, quien a través del trabajo diario, arduo y guiado de las manos de nuestros docentes; logra crear para sí mismo un ambiente de colaboración, superación y estudio; a saber, un ambiente universitario, el cual; aunado a su aprovechamiento, también logre disfrutar en la convivencia escolar, para que el éxito sea alcanzado en su formación académica y consecuente desempeño profesional.</p>
           <div class="d-flex mb-3">
             <div class="btn-icon bg-primary mr-4">
               <i class="fa fa-2x fa-graduation-cap text-white"></i>
             </div>
             <div class="mt-n1">
               <h4>Instructores Altamente Calificados</h4>
-              <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+              <p>Contamos con los mejores docentes para tu carrera</p>
             </div>
           </div>
           <div class="d-flex mb-3">
@@ -194,7 +195,7 @@ include('includes/config.php');
             </div>
             <div class="mt-n1">
               <h4>Certificados Avalados Internacionalmente</h4>
-              <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+              <p>mejores oportunidades de empleo dentro o fuera del pais</p>
             </div>
           </div>
           <div class="d-flex">
@@ -202,8 +203,8 @@ include('includes/config.php');
               <i class="fa fa-2x fa-book-reader text-white"></i>
             </div>
             <div class="mt-n1">
-              <h4>Clases 100% online</h4>
-              <p class="m-0">Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+              <h4>Clases en linea y precensiales</h4>
+              <p class="m-0">Te damos las herramientas necesarias para terminar tu carrera </p>
             </div>
           </div>
         </div>
@@ -234,29 +235,29 @@ include('includes/config.php');
             <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Testimonio</h6>
             <h1 class="display-4">Que dicen nuestros estudiantes</h1>
           </div>
-          <p class="m-0">Dolor est dolores et nonumy sit labore dolores est sed rebum amet, justo duo ipsum sanctus dolore magna rebum sit et. Diam lorem ea sea at. Nonumy et at at sed justo est nonumy tempor. Vero sea ea eirmod, elitr ea amet diam ipsum at amet. Erat sed stet eos ipsum diam</p>
+          <p class="m-0">La Universidad Tres Culturas ofrece un ambiente académico diverso e inclusivo que fomenta la comprensión intercultural y el respeto mutuo. Al sumergirte en este entorno, tendrás la oportunidad de interactuar con compañeros de diferentes culturas, lo que enriquecerá tu perspectiva y te permitirá desarrollar habilidades de comunicación intercultural tan importantes en el mundo actual.</p>
         </div>
         <div class="col-lg-7">
           <div class="owl-carousel testimonial-carousel">
             <div class="bg-white p-5">
               <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-              <p>Sed et elitr ipsum labore dolor diam, ipsum duo vero sed sit est est ipsum eos clita est ipsum. Est nonumy tempor at kasd. Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
+              <p>Universidad Tres Culturas, promueve la participación activa de los estudiantes en actividades extracurriculares, lo que te permitirá desarrollar habilidades de liderazgo, trabajo en equipo y compromiso social. Participar en eventos culturales, proyectos de servicio comunitario y clubes estudiantiles te ayudará a ampliar tu red de contactos y a enriquecer tu experiencia universitaria.</p>
               <div class="d-flex flex-shrink-0 align-items-center mt-4">
                 <img class="img-fluid mr-4" src="./assets/images/testimonial-2.jpg" alt="">
                 <div>
-                  <h5>Nombre del Estudiante</h5>
-                  <span>Diseño Web</span>
+                  <h5>Julio Perez</h5>
+                  <span>Diseño grafico</span>
                 </div>
               </div>
             </div>
             <div class="bg-white p-5">
               <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-              <p>Sed et elitr ipsum labore dolor diam, ipsum duo vero sed sit est est ipsum eos clita est ipsum. Est nonumy tempor at kasd. Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
+              <p>Estudiar en la Universidad Tres Culturas puede brindarnos una experiencia educativa enriquecedora y única. </p>
               <div class="d-flex flex-shrink-0 align-items-center mt-4">
                 <img class="img-fluid mr-4" src="./assets/images/testimonial-1.jpg" alt="">
                 <div>
-                  <h5>Nombre del Estudiante</h5>
-                  <span>Desarrollo de Aplicaciones</span>
+                  <h5>Michell Rodriguez</h5>
+                  <span>Pedagogia</span>
                 </div>
               </div>
             </div>
@@ -280,7 +281,7 @@ include('includes/config.php');
               </div>
               <div class="mt-n1">
                 <h4>Nuestra Ubicación</h4>
-                <p class="m-0">Calle 123, Bogotá Colombia</p>
+                <p class="m-0">Ixtapaluca. Av. Cuauhtemoc 3, Col. Centro Ixtapaluca. Estado de México Dentro de Galerías Ixtapaluca CP. 56530</p>
               </div>
             </div>
             <div class="d-flex align-items-center mb-5">
@@ -289,7 +290,7 @@ include('includes/config.php');
               </div>
               <div class="mt-n1">
                 <h4>Llamanos</h4>
-                <p class="m-0">+57 302 58 94</p>
+                <p class="m-0">8009531305</p>
               </div>
             </div>
             <div class="d-flex align-items-center">
@@ -298,7 +299,7 @@ include('includes/config.php');
               </div>
               <div class="mt-n1">
                 <h4>Correo</h4>
-                <p class="m-0">hola@configuroweb.com</p>
+                <p class="m-0">utc@edu.utc.mx</p>
               </div>
             </div>
           </div>
@@ -342,12 +343,12 @@ include('includes/config.php');
       <div class="row">
         <div class="col-md-6 mb-5">
           <a href="index.html" class="navbar-brand">
-            <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>ConfiguroWeb</h1>
+            <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>U.T.C.</h1>
           </a>
           <p class="m-0">Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores. Justo stet diam ipsum lorem vero clita diam</p>
         </div>
         <div class="col-md-6 mb-5">
-          <h3 class="text-white mb-4">Newsletter</h3>
+          <h3 class="text-white mb-4">Contactanos</h3>
           <div class="w-100">
             <div class="input-group">
               <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Tu dirección de correo">
@@ -361,9 +362,9 @@ include('includes/config.php');
       <div class="row">
         <div class="col-md-4 mb-5">
           <h3 class="text-white mb-4">Contacto</h3>
-          <p><i class="fa fa-map-marker-alt mr-2"></i>123 Bogotá, Colombia</p>
-          <p><i class="fa fa-phone-alt mr-2"></i>+57 315 67890</p>
-          <p><i class="fa fa-envelope mr-2"></i>hola@configuroweb.com</p>
+          <p><i class="fa fa-map-marker-alt mr-2"></i>Ixtapaluca. Av. Cuauhtemoc 3, Col. Centro Ixtapaluca. Estado de México Dentro de Galerías Ixtapaluca CP. 56530</p>
+          <p><i class="fa fa-phone-alt mr-2"></i>8009531305</p>
+          <p><i class="fa fa-envelope mr-2"></i>utc@edu.utc.mx</p>
           <div class="d-flex justify-content-start mt-4">
             <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
             <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
